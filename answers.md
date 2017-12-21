@@ -69,3 +69,66 @@ if(email.name = "koalathebear@gmail.com"){submit.disabled= true }else{submit.dis
 14.
 var privacy = document.querySelectorAll(".bio-info-value")
 privacy.forEach(function(i){return i.innerText = "NA"})
+
+
+
+part II
+
+0.
+
+var timeTravel = document.getElementById("time-travel")
+
+timeTravel.remove()
+
+1.
+
+var pikachu = document.getElementById("right-image")
+document.body.appendChild(pikachu.cloneNode(true))
+
+2.
+
+for(i=0;i<=10; i++){ document.body.appendChild(pikachu.cloneNode(true))}
+
+3.
+
+var listItem = document.createElement('li');
+
+var leftSpan = document.createElement('span');
+var lastUpdated = document.createTextNode('Page last updated on');
+leftSpan.appendChild(lastUpdated);
+"Page last updated on"
+
+var rightSpan = document.createElement('span')
+undefined
+var currentDay = document.createTextNode(new Date());
+undefined
+rightSpan.appendChild(currentDay)
+
+listItem.appendChild(leftSpan)
+listItem.appendChild(rightSpan)
+
+var bio = document.querySelector(".bio-info")
+var bio = document.querySelector(".bio-info")
+
+
+<!-- var listItem = document.createElement('li');
+
+var leftSpan = document.createElement('span');
+
+var lastUpdated = document.createTextNode('Page last updated on');
+
+leftSpan.appendChild(lastUpdated);
+"Page last updated on"
+
+var rightSpan = document.createElement('span')
+
+var currentDay = document.createTextNode(new Date());
+
+listItem.appendChild(leftSpan)
+
+listItem.appendChild(rightSpan)
+
+var bio = document.querySelector(".bio-info")
+
+bio.appendChild(listItem)
+ -->
